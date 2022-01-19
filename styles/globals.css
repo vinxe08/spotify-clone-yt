@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply h-5 w-5 cursor-pointer hover:scale-125 transition transform duration-100 ease-out;
+  }
+
+  .menu_bar {
+    @apply flex p-3 text-gray-300 hover:text-gray-50 hover:bg-[#464545] cursor-pointer rounded-sm;
+  }
+}
